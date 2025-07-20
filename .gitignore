@@ -1,3 +1,19 @@
+# Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
 *.tfvars
-*.tfstate*
-.idea/*
+*.tfvars.json
+
+# AWS credentials
+**/.aws/credentials
+
+# IDE/Editor files
+.idea/
+
+
+# Local override files
+override.tf
+override.tf.json
+_override.tf
+_override.tf.json
